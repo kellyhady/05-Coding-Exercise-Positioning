@@ -11,7 +11,12 @@ body{
     color:white;
     padding:0.5em;
     background-color:#333;
-    border:0.1em solid #DDD
+    border:0.1em solid #DDD;
+}
+
+.container .bg-grey {
+    position: absolute;
+    z-index: -1;
 }
 
  .container .block h2{
