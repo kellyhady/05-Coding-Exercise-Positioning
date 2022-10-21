@@ -23,6 +23,16 @@ body{
     margin:0;
     font-weight:normal;
 }
+
+.container .bg-blue {
+    position: relative;
+    
+}
+.container .bg-green {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
     
 .container .block.small{
     min-height:auto;
