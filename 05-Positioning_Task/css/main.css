@@ -33,7 +33,13 @@ body{
     top: 100px;
     right: 0px;
 }
-    
+
+.container .bg-purple {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
 .container .block.small{
     min-height:auto;
     min-width:auto;
