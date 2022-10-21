@@ -17,6 +17,7 @@ body{
 .container .bg-grey {
     position: absolute;
     z-index: -1;
+    top: 60px;
 }
 
  .container .block h2{
@@ -25,20 +26,27 @@ body{
 }
 
 .container .bg-blue {
+    background-color:blue;
     position: relative;
+    z-index: 1;
     
 }
 .container .bg-green {
     position: absolute;
+    background-color:green;
     top: 100px;
     right: 0px;
+    z-index: 2;
 }
 
 .container .bg-purple {
+    background-color:purple;
     position: fixed;
     right: 0px;
     bottom: 0px;
-
+    width: 25vw;
+    height: 25vh;
+    z-index: auto;
 }
 .container .block.small{
     min-height:auto;
@@ -47,14 +55,3 @@ body{
     height:100px
 }
 
-.container .bg-blue{
-    background-color:blue
-}
-
-.container .bg-green{
-    background-color:green;
-}
-
-.container .bg-purple{
-    background-color:purple
-}
